@@ -61,8 +61,8 @@ export default async function BookPage({
             className="book-hover-cover relative origin-left rounded-sm [transform-style:preserve-3d]"
             style={{ boxShadow: '0 2px 8px rgba(32,20,10,0.08), 0 8px 18px rgba(32,20,10,0.08)' }}
           >
-            <div className="book-hover-thickness pointer-events-none absolute inset-y-0 -right-[4px] w-[6px] rounded-r-[2px]" />
-            <div className="book-hover-spine pointer-events-none absolute inset-y-[2px] left-[2px] w-[8px] rounded-l-sm" />
+            <div className="book-hover-thickness pointer-events-none absolute inset-y-0 -right-[3px] w-[4px] rounded-r-[2px]" />
+            <div className="book-hover-spine pointer-events-none absolute inset-y-[2px] left-[2px] w-[6px] rounded-l-sm" />
             <div className="book-hover-gloss pointer-events-none absolute inset-0 rounded-sm" />
             <img
               src={book.cover}
