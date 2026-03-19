@@ -45,7 +45,7 @@ export const books: Book[] = [
     slug: 'the-cold-start-problem',
     title: 'The Cold Start Problem',
     author: 'Andrew Chen',
-    cover: '/covers/the-cold-start-problem.png',
+    cover: '/covers/the-cold-start-problem.jpg',
     status: 'reading',
     tags: ['startups', 'network-effects', 'growth'],
     hasNotes: false,
