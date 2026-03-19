@@ -51,17 +51,15 @@ export default async function BookPage({
 
       <div className="flex flex-col md:flex-row gap-10 md:gap-14 mb-20">
         <div className="group book-hover-wrap relative inline-block mx-auto flex-shrink-0 [perspective:1600px] md:mx-0">
-          <div className="book-hover-shadow absolute inset-x-2 bottom-[-10px] top-4 rounded-[999px] bg-black/10 blur-md opacity-35" />
+          <div className="book-hover-shadow absolute -inset-x-3 -inset-y-2 rounded-[10px] bg-[rgba(32,20,10,0.08)] blur-xl opacity-70" />
           <div className="book-hover-body absolute inset-0 overflow-hidden rounded-sm">
-            <div className="book-hover-page absolute inset-y-[2px] right-[1px] w-full rounded-sm bg-white border border-neutral-200/80 shadow-[0_10px_24px_rgba(0,0,0,0.07)] dark:bg-neutral-50" />
-            <div className="book-hover-page absolute inset-y-[4px] right-[3px] w-full rounded-sm bg-white border border-neutral-200/70 shadow-[0_8px_18px_rgba(0,0,0,0.05)] dark:bg-neutral-100" />
-            <div className="book-hover-page absolute inset-y-[6px] right-[6px] w-full rounded-sm bg-[linear-gradient(180deg,#ffffff_0%,#f8f8f8_100%)] border border-neutral-200/60 shadow-[0_6px_14px_rgba(0,0,0,0.04)]" />
+            <div className="book-hover-page absolute inset-y-[2px] right-[1px] w-full rounded-sm border border-neutral-200/80 bg-white dark:bg-neutral-50" />
+            <div className="book-hover-page absolute inset-y-[4px] right-[3px] w-full rounded-sm border border-neutral-200/70 bg-white dark:bg-neutral-100" />
+            <div className="book-hover-page absolute inset-y-[6px] right-[6px] w-full rounded-sm border border-neutral-200/60 bg-[linear-gradient(180deg,#ffffff_0%,#f8f8f8_100%)]" />
           </div>
           <div
             className="book-hover-cover relative origin-left rounded-sm [transform-style:preserve-3d]"
-            style={{ boxShadow: '0 2px 8px rgba(32,20,10,0.08), 0 8px 18px rgba(32,20,10,0.08)' }}
           >
-            <div className="book-hover-thickness pointer-events-none absolute inset-y-0 -right-[3px] w-[4px] rounded-r-[2px]" />
             <div className="book-hover-spine pointer-events-none absolute inset-y-[2px] left-[2px] w-[6px] rounded-l-sm" />
             <div className="book-hover-gloss pointer-events-none absolute inset-0 rounded-sm" />
             <img
