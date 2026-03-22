@@ -96,6 +96,17 @@ export const books: Book[] = [
     oneLiner: 'How to talk to customers and learn if your business is a good idea when everyone is lying to you',
     amazonUrl: 'https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742',
   },
+  {
+    slug: 'the-let-them-theory',
+    title: 'The Let Them Theory',
+    author: 'Mel Robbins',
+    cover: '/covers/the-let-them-theory.jpg',
+    status: 'want-to-read',
+    tags: ['mindset', 'self-improvement', 'relationships'],
+    oneLiner: 'A practical mindset for letting other people be themselves while you focus on what you can control',
+    amazonUrl: 'https://www.amazon.com/Let-Them-Theory-Life-Changing-Millions/dp/1401971369',
+    hasNotes: false,
+  },
 ]
 
 export function getBookBySlug(slug: string): Book | undefined {
